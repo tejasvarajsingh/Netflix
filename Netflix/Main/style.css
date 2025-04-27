@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+
+    background-image: url(Resources/bg.jpg);
+    object-fit: cover;
+    object-position: top;
+    height: 694px;
+    border-bottom: 5px solid white;
+}
+
+.box {
+
+    background-color: rgb(0, 0, 0, 0.65);
+    height: 694px;
+    width: 100%;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    align-items: center;
+    margin: auto;
+    /* scale: 1.14; */
+    gap: 590px;
+
+
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+    scale: 1.1;
+    filter: grayscale(0.1);
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#btneng {
+    background-color: black;
+    border: 0.2px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.btnsignin {
+    background-color: rgb(193, 17, 25);
+    border-color: rgb(193, 17, 25);
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 5px 15px;
+    font-weight: 600;
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+}
+
+
+
+option {
+    font-size: 15px;
+}
+
+.content {
+
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    height: 694px;
+}
+
+.content h1 {
+    font-family: "Martel Sans";
+
+    color: white;
+    font-size: 56px;
+    height: 64px;
+    font-weight: 1000;
+}
+
+.content h3 {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Martel Sans";
+    font-weight: 900;
+
+}
+
+.content #ready {
+    color: white;
+    margin-top: 20px;
+    font-family: "Martel Sans";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.inp input {
+    display: inline-block;
+    background-color: rgb(0, 0, 0, 0.65);
+    border: 1px solid white;
+    padding: 5px;
+    width: 334px;
+
+    height: 24px;
+    margin-top: 20px;
+    padding: 16px 16px 16px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.inp button {
+    color: white;
+    background-color: rgb(193, 17, 25);
+    padding: 10px;
+    border: 1px solid rgb(193, 17, 25);
+    border-radius: 5px;
+    margin-left: 8px;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 8px 25px 10px 30px;
+}
+
+.inp svg {
+    color: white;
+    position: relative;
+    top: 4px;
+}
+
+.grad {
+
+    /* border: 2px solid white; */
+    margin-top: 5px;
+    height: 50px;
+    background: radial-gradient(ellipse at bottom, red 9%, black 78%);
+}
