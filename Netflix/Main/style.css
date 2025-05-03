@@ -115,7 +115,7 @@ option {
 
 }
 
-.content #ready {
+#ready {
     color: white;
     margin-top: 20px;
     font-family: "Martel Sans";
@@ -159,8 +159,178 @@ option {
 
 .grad {
 
-    /* border: 2px solid white; */
+    border-bottom: 5px solid white;
     margin-top: 5px;
     height: 50px;
     background: radial-gradient(ellipse at bottom, red 9%, black 78%);
+}
+
+.specs {
+    display: flex;
+    justify-content: center;
+
+}
+
+.more {
+    padding-left: 110px;
+    margin-top: 50px;
+}
+
+.more h2 {
+    color: white;
+    font-size: 24px;
+    font-family: "Martel Sans";
+
+
+}
+
+.specsbox {
+    transition-duration: 0.5s;
+    color: white;
+    height: 278px;
+    width: 320px;
+    margin: 0px 7px 0px 7px;
+    border-radius: 20px;
+    /* background: linear-gradient(145deg,#1a2246 90%,red ); */
+
+
+    /* background: radial-gradient(circle at center, #221B41, #0A021E); */
+    /* background-color: #0A021E; */
+
+
+    /* background: linear-gradient(135deg, #1b2236 0%, #18192b 100%);
+box-shadow: 0 4px 24px rgba(0,0,0,0.35); */
+
+    background:
+        radial-gradient(circle at 85% 85%, rgba(129, 40, 40, 0.35) 0%, rgba(0, 0, 0, 0) 50%), linear-gradient(135deg, #1b2236 0%, #18192b 100%);
+}
+
+.specsbox h3 {
+    font-size: 1.55rem;
+    font-weight: 500;
+    padding: 20px 0px 0px 17px;
+}
+
+.specsbox p {
+    color: #b8b7c0;
+    padding: 10px 0px 0px 20px;
+}
+
+
+
+.specsbox img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    left: 224px;
+}
+
+#tv {
+    top: 50px;
+}
+
+#down {
+    top: 37px;
+}
+
+#tele {
+    top: 52px;
+}
+
+#profile {
+    top: 30px;
+}
+
+.specsbox:hover {
+    scale: 1.02;
+    box-shadow: 0px 0px 60px 0px red;
+
+}
+
+.faqhead>p {
+    color: white;
+    font-family: "Martel Sans";
+    font-weight: 800;
+    font-size: 24px;
+    padding-left: 110px;
+    margin-top: 70px;
+}
+
+.faqbtn {
+    background-color: #313131;
+    font-family: "Martel Sans";
+    font-size: 24px;
+    height: 36px;
+    width: 1254px;
+    margin: auto;
+    margin-top: 9px;
+    color: white;
+    padding: 24px;
+    transition-duration: 0.6s;
+    display: flex;
+
+
+}
+
+.faqbtn img {
+    position: absolute;
+    left: 1300px;
+    height: 36px;
+    transition-duration: 0.5s;
+}
+
+.faqbtn:hover {
+    background-color: #525252;
+    /* img{
+        transform: rotate(45deg);
+    } */
+}
+
+.faqcontent {
+    background-color: #313131;
+    font-size: 24px;
+    width: 1254px;
+    margin: auto;
+    padding: 24px;
+    margin-top: 2px;
+    display: none;
+    transition-delay: 1s;
+
+
+    p {
+         color: white;
+    }
+}
+
+
+.after-faq-sign-up {
+    color: white;
+    margin: auto;
+    display: inline;
+    text-align: center;
+
+}
+
+.footerhead{
+    color: white;
+    padding: 52px 0px 52px 144px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 80vw;
+    margin: auto;
+    min-height: 300px;
+    a{    
+        color: white;
+        font-size: 14px;
+    }
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
